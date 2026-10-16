@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="hi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Instagram aur YouTube social media services. Packages dekhein aur WhatsApp par order karein.">
+  <meta name="theme-color" content="#111827">
+  <title>SocialBoost — Instagram & YouTube Services</title>
+  <style>
+    :root{--bg:#0b1020;--panel:#151d32;--muted:#b7c1d8;--text:#f8fafc;--accent:#8b5cf6;--accent2:#ec4899;--line:#2b3650}
+    *{box-sizing:border-box}body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;background:linear-gradient(150deg,#10172d,#090d18 65%);color:var(--text);line-height:1.55}
+    a{color:inherit}.wrap{width:min(1080px,92%);margin:auto}.nav{display:flex;justify-content:space-between;align-items:center;padding:18px 0;gap:14px}.brand{font-weight:900;font-size:1.2rem;letter-spacing:.2px}.brand span{color:#c4b5fd}.nav a{font-size:.92rem;text-decoration:none;color:var(--muted)}
+    .hero{padding:52px 0 34px;display:grid;grid-template-columns:1.2fr .8fr;gap:24px;align-items:center}.eyebrow{color:#c4b5fd;font-weight:800;text-transform:uppercase;letter-spacing:2px;font-size:.75rem}.hero h1{font-size:clamp(2.1rem,6vw,4rem);line-height:1.06;margin:12px 0}.hero p{color:var(--muted);max-width:600px}.actions{display:flex;flex-wrap:wrap;gap:10px;margin-top:22px}.btn{display:inline-block;border:0;border-radius:12px;padding:12px 17px;font-weight:800;text-decoration:none;cursor:pointer}.primary{background:linear-gradient(100deg,var(--accent),var(--accent2));color:white}.secondary{border:1px solid var(--line);background:#151d32;color:white}.hero-card{border:1px solid var(--line);border-radius:24px;padding:24px;background:radial-gradient(circle at top right,#39245c,#151d32 55%);box-shadow:0 20px 60px #0004}.hero-card .big{font-size:3.4rem}.hero-card h2{margin:4px 0}.hero-card p{margin-bottom:0}
+    section{padding:28px 0}.section-title{text-align:center;margin:0 0 8px;font-size:1.8rem}.section-sub{text-align:center;color:var(--muted);margin:0 auto 24px;max-width:650px}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.card{background:var(--panel);border:1px solid var(--line);border-radius:18px;padding:20px}.card h3{margin:8px 0}.icon{font-size:1.8rem}.price{font-size:1.8rem;font-weight:900;margin:10px 0}.muted{color:var(--muted);font-size:.92rem}.card .btn{width:100%;text-align:center;margin-top:12px}.popular{border-color:#8b5cf6;box-shadow:0 0 0 1px #8b5cf644}
+    .orderbox{max-width:700px;margin:auto;background:var(--panel);border:1px solid var(--line);border-radius:20px;padding:22px}.formgrid{display:grid;grid-template-columns:1fr 1fr;gap:14px}label{display:block;font-weight:700;font-size:.9rem;margin-bottom:6px}input,select,textarea{width:100%;border-radius:10px;border:1px solid #3a4661;background:#0d1425;color:white;padding:12px;font:inherit}textarea{min-height:90px;resize:vertical}.field{margin-bottom:14px}.orderbox button{width:100%}.notice{font-size:.82rem;color:var(--muted);margin-top:12px}.faq{max-width:760px;margin:auto}.faq details{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:14px 16px;margin:10px 0}.faq summary{font-weight:800;cursor:pointer}.faq p{color:var(--muted)}footer{border-top:1px solid var(--line);margin-top:30px;padding:25px 0;color:var(--muted);font-size:.9rem;text-align:center}
+    @media(max-width:760px){.hero{grid-template-columns:1fr;padding-top:30px}.grid{grid-template-columns:1fr}.formgrid{grid-template-columns:1fr}.hero-card{padding:20px}.nav{align-items:flex-start}.nav a{max-width:140px;text-align:right}}
+  </style>
+</head>
+<body>
+<header class="wrap nav">
+  <div class="brand">🚀 Social<span>Boost</span></div>
+  <a href="#services">Services dekhein ↓</a>
+</header>
+<main>
+  <div class="wrap hero">
+    <div>
+      <div class="eyebrow">Instagram • YouTube</div>
+      <h1>Apni social media journey ko <span style="color:#c4b5fd">boost</span> karein.</h1>
+      <p>Services aur packages dekhein, apni requirement bharein aur order WhatsApp par bhejein. Order confirm hone se pehle payment na karein.</p>
+      <div class="actions"><a class="btn primary" href="#services">Packages dekhein</a><a class="btn secondary" href="#order">WhatsApp order</a></div>
+    </div>
+    <div class="hero-card"><div class="big">📈</div><h2>Simple ordering</h2><p>Package chunein, profile link dein aur WhatsApp par order details bhejein.</p></div>
+  </div>
+
+  <section id="services" class="wrap">
+    <h2 class="section-title">Popular Packages</h2>
+    <p class="section-sub">Yeh sample packages hain. Apni asli price aur service details upload karne se pehle edit kar lena.</p>
+    <div class="grid">
+      <article class="card popular"><div class="icon">📸</div><h3>Instagram Followers</h3><p class="muted">Sample package — quantity aur delivery details WhatsApp par confirm karein.</p><div class="price">₹1100</div><p class="muted">10,000 followers · sample price</p><button class="btn primary" onclick="choose('Instagram Followers — 10,000 — ₹1100')">Order karein</button></article>
+      <article class="card"><div class="icon">❤️</div><h3>Instagram Likes</h3><p class="muted">Apne post ke liye package details bhejein.</p><div class="price">₹100</div><p class="muted">10,000 likes · sample price</p><button class="btn primary" onclick="choose('Instagram Likes — 10,000 — ₹100')">Order karein</button></article>
+      <article class="card"><div class="icon">▶️</div><h3>Video Views</h3><p class="muted">Instagram ya YouTube video link ke saath order bhejein.</p><div class="price">₹50</div><p class="muted">10,000 views · sample price</p><button class="btn primary" onclick="choose('Video Views — 10,000 — ₹50')">Order karein</button></article>
+    </div>
+  </section>
+
+  <section id="order" class="wrap">
+    <h2 class="section-title">WhatsApp par Order Karein</h2>
+    <p class="section-sub">Details bharne ke baad WhatsApp khulega. Number code mein apna number daalna zaroori hai.</p>
+    <div class="orderbox">
+      <form id="orderForm">
+        <div class="formgrid">
+          <div class="field"><label for="customer">Aapka naam</label><input id="customer" required placeholder="Naam"></div>
+          <div class="field"><label for="platform">Platform</label><select id="platform"><option>Instagram</option><option>YouTube</option></select></div>
+        </div>
+        <div class="field"><label for="service">Service / package</label><select id="service"><option>Instagram Followers — 10,000 — ₹1100</option><option>Instagram Likes — 10,000 — ₹100</option><option>Video Views — 10,000 — ₹50</option><option>Other — price confirm karna hai</option></select></div>
+        <div class="field"><label for="profile">Profile / post / video link</label><input id="profile" type="url" placeholder="https://..." required></div>
+        <div class="field"><label for="notes">Extra details (optional)</label><textarea id="notes" placeholder="Quantity, custom package, etc."></textarea></div>
+        <button class="btn primary" type="submit">WhatsApp par order bhejein</button>
+        <p class="notice">Safety: apna password ya OTP kabhi share na karein. Sirf platform ke rules ke mutabik services use karein; fake engagement se account ko risk ho sakta hai.</p>
+      </form>
+    </div>
+  </section>
+
+  <section class="wrap">
+    <h2 class="section-title">FAQ</h2>
+    <div class="faq">
+      <details><summary>Payment kaise karna hai?</summary><p>WhatsApp par order aur total amount confirm hone ke baad hi seller ke verified payment details par payment karein.</p></details>
+      <details><summary>Kya password ya OTP dena hoga?</summary><p>Nahi. Kisi ko bhi apna password, OTP ya recovery code mat dein.</p></details>
+      <details><summary>Order kab confirm hoga?</summary><p>WhatsApp par price, availability aur delivery details confirm hone ke baad.</p></details>
+    </div>
+  </section>
+</main>
+<footer><div class="wrap">© <span id="year"></span> SocialBoost. All rights reserved.<br>Independent service page; Instagram aur YouTube se affiliated nahi.</div></footer>
+<script>
+  // IMPORTANT: Replace with your WhatsApp number including India country code, digits only.
+  // Example: 919876543210 (do not include +, spaces, or dashes).
+  const WHATSAPP_NUMBER = "91XXXXXXXXXX";
+  function choose(packageName) {
+    document.getElementById("service").value = packageName;
+    document.getElementById("order").scrollIntoView({behavior:"smooth"});
+  }
+  document.getElementById("year").textContent = new Date().getFullYear();
+  document.getElementById("orderForm").addEventListener("submit", function(e) {
+    e.preventDefault();
+    if (WHATSAPP_NUMBER.includes("X")) {
+      alert("Pehle index.html file mein WHATSAPP_NUMBER ko apne WhatsApp number se replace karein.");
+      return;
+    }
+    const name = document.getElementById("customer").value.trim();
+    const platform = document.getElementById("platform").value;
+    const service = document.getElementById("service").value;
+    const profile = document.getElementById("profile").value.trim();
+    const notes = document.getElementById("notes").value.trim();
+    const message = `New order request%0AName: ${encodeURIComponent(name)}%0APlatform: ${encodeURIComponent(platform)}%0AService: ${encodeURIComponent(service)}%0ALink: ${encodeURIComponent(profile)}%0ANotes: ${encodeURIComponent(notes)}`;
+    window.open(`https://wa.me/${WHATSAPP_NUMBER}?text=${message}`, "_blank", "noopener");
+  });
+</script>
+</body>
+</html>
